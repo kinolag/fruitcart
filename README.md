@@ -11,9 +11,9 @@ This simple app :
 
 • adjusts the subtotal if an offer has been activated (in this case by the client, but in a real scenario the same could be done by the admin)
 
-• returns a message if trying to add items to cart when all quantities are still zero
+• returns a message if trying to add items to cart when all quantities are equal to zero
 
-• returns an alert if trying to place an order when no item has been added to the cart
+• returns an alert if trying to place an order when no item has been added to the cart yet
 
 • returns an alert to confirm an order has been placed. The page is then reset to the starting status.
 
