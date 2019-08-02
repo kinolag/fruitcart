@@ -1,33 +1,517 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
+/* .App {
+  
+} */
 
-.App-header {
-  background-color: #282c34;
+.outer {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: flex-start;
+}
+
+.wrapper {
+  /* width: 60vw; */
+  /* border: 1px dashed #eee;  */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+/* grids */
+
+.cell {
+  border: 1px solid #dfdfdf;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.left {
+  justify-content: flex-start;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.gr00 {
+  display: grid;
+  width: 80%;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	grid-auto-rows: 200px;
+  grid-gap: 16px;
+}
+
+.gr01 {
+  display: grid;
+  width: 80%;
+	grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+	grid-auto-rows: 160px;
+  grid-gap: 16px;
+}
+
+.gr01lo {
+  display: grid;
+  width: 80%;
+	grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+	grid-auto-rows: 80px;
+  grid-gap: 16px;
+}
+
+/* shapes */
+
+.cerchio {
+  width: 100px;
+  height: 100px;
+  border: 0px black solid;
+  border-radius: 50%
+}
+
+/* animations */
+
+@keyframes pulsation {
+  0% { 
+    transform: scale(1); 
+    opacity: 0.92;
+  }
+  50% { 
+    transform: scale(1.25); 
+    opacity: 1;
+  }
+  100% { 
+    transform: scale(1); 
+    opacity: 0.92;
+  }
+}
+
+.rotator {
+  /* animation: App-logo-spin infinite 10s linear; */
+  /* height: 40vmin; */
+  pointer-events: none;
+  animation-name: rotation;
+	animation-duration: 20s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+  will-change: transform;
+}
+
+@keyframes rotation {
+  0% { transform: rotate(0deg); }
+  50% { transform: rotate(360deg); }
+  100% { transform: rotate(0deg); }
+}
+
+/* change only duration property */
+
+.pulse {
+  animation-name: pulsation;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+  will-change: transform;
+}
+
+.s1 {
+    animation-duration: 1s;
+}
+
+.s2 {
+    animation-duration: 2s;
+}
+
+.s4 {
+    animation-duration: 4s;
+}
+
+.s8 {
+    animation-duration: 8s;
+}
+
+/* links */
+  
+.a1 {
+  text-decoration: underline;
+  color: slategrey;
+}
+
+.a1:hover {
+    text-decoration: none;
+    color: #FF5000;
+}
+
+.a2 {
+  text-decoration: underline;
+  color: #FF8000;
+}
+
+.a2:hover {
+    text-decoration: none;
+    color: #FF5000;
+}
+
+.a3 {
+  text-decoration: underline;
+  color: black;
+}
+
+.a3:hover {
+    text-decoration: none;
+    color: red;
+}
+
+/* modifiers */
+
+.wh20 {
+  width: 20px;
+  height: 20px;
+}
+
+.wh40 {
+  width: 40px;
+  height: 40px;
+}
+
+.wh60 {
+  width: 60px;
+  height: 60px;
+}
+
+.wh80 {
+  width: 80px;
+  height: 80px;
+}
+
+.wh100 {
+  width: 100px;
+  height: 100px;
+}
+
+.w70vw {
+  width: 70vw;
+}
+
+.w65vw {
+  width: 65vw;
+}
+
+.w60vw {
+  width: 60vw;
+}
+
+.w55vw {
+  width: 55vw;
+}
+
+.w50vw {
+  width: 50vw;
+}
+
+.w40vw {
+  width: 40vw;
+}
+
+.w35vw {
+  width: 35vw;
+}
+
+.w30vw {
+  width: 30vw;
+}
+
+.w25vw {
+  width: 25vw;
+}
+
+.w20vw {
+  width: 20vw;
+}
+
+.w15vw {
+  width: 15vw;
+}
+
+.w10vw {
+  width: 10vw;
+}
+
+.w50 {
+  width: 50px;
+}
+
+.h26 {
+  height: 26px;
+}
+
+.mar-10 {
+  margin: 10px;
+}
+
+.mar-20 {
+  margin: 20px;
+}
+
+.pad-5 {
+  padding: 5px;
+}
+
+.pad-10 {
+  padding: 10px;
+}
+
+.pad-15 {
+  padding: 15px;
+}
+
+.pad-20 {
+  padding: 20px;
+}
+
+.border-1 {
+  border: 1px dashed #ddd;
+}
+
+.border-2 {
+  border: 2px dashed #ddd;
+}
+
+.radius-4 {
+  border-radius: 4px;
+}
+
+.radius-8 {
+  border-radius: 8px;
+}
+
+.txt-l {
+  text-align: left;
+}
+
+.txt-c {
+  text-align: center;
+}
+
+.txt-r {
+  text-align: right;
+}
+
+.txt-14 {
+  font-size: 14px;
+}
+
+.txt-12 {
+  font-size: 12px;
+}
+
+.space-04 {
+  letter-spacing: 0.04rem;
+}
+
+.space-08 {
+  letter-spacing: 0.08rem;
+}
+
+.space-25 {
+  letter-spacing: 0.25rem;
+}
+
+.is-white {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.is-fc0 {
+  color: #FC0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.is-red {
+  color: red;
+}
+
+.is-teal {
+  color: teal;
+}
+
+.is-slategrey {
+  color: slategrey;
+}
+
+.is-349 {
+  color: #3498db;
+}
+
+.bg-349 {
+  background-color: #3498db;
+}
+
+.bg-2e8 {
+  background-color: #2e86c1 ;
+}
+
+.bg-fc0 {
+  background-color: #FC0;
+}
+
+.bg-red {
+  background-color: red;
+}
+
+.bg-dsb {
+  background-color: darkslateblue;
+}
+
+.bg-sb {
+  background-color: slateblue;
+}
+
+.bg-sg {
+  background-color: slategrey;
+}
+
+.bg-0 {
+  background-color: #000;
+}
+
+.bg-1 {
+  background-color: #111;
+}
+
+.bg-2 {
+  background-color: #222;
+}
+
+.bg-3 {
+  background-color: #333;
+}
+
+.bg-4 {
+  background-color: #444;
+}
+
+.bg-5 {
+  background-color: #555;
+}
+
+.bg-6 {
+  background-color: #666;
+}
+
+.bg-7 {
+  background-color: #777;
+}
+
+.bg-8 {
+  background-color: #888;
+}
+
+.bg-9 {
+  background-color: #999;
+}
+
+.bg-a {
+  background-color: #aaa;
+}
+
+.bg-b {
+  background-color: #bbb;
+}
+
+.bg-c {
+  background-color: #ccc;
+}
+
+.bg-d {
+  background-color: #ddd;
+}
+
+.bg-e {
+  background-color: #eee;
+}
+
+.bg-f {
+  background-color: #fff;
+}
+
+.opacity-10 {
+  opacity: 0.10;
+}
+
+.opacity-15 {
+  opacity: 0.15;
+}
+
+.opacity-20 {
+  opacity: 0.20;
+}
+
+.opacity-30 {
+  opacity: 0.30;
+}
+
+.opacity-40 {
+  opacity: 0.40;
+}
+
+.shadow-fc0 {
+  opacity: 0.95  ;
+  filter: drop-shadow(1px 1px 1px #fc0);
+}
+
+.shadow-ddd {
+  opacity: 0.95  ;
+  filter: drop-shadow(1px 1px 1px #ddd);
+}
+
+.point {
+  cursor: pointer;
+}
+
+/* form */
+
+.user-form {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.form-button {
+  padding: 8px 8px;
+  /* width: 14vw;    */
+  text-align: center;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+  .row {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  } 
+
+  .row-l {
+    flex-direction: column;
+    /* align-items: center; */
+    /* text-align: center; */
+  } 
+
+  .no-display {
+    display: none;
   }
-  to {
-    transform: rotate(360deg);
+
+  .form-button {
+    width: 98px;
   }
+
 }
