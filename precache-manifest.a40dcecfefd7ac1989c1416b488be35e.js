@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7b75f8af4fc413133640e4a50690ce65",
+    "revision": "7e81d80dc13f00dd962ecd9cef105d76",
     "url": "/fruitcart/index.html"
   },
   {
-    "revision": "68daf5ca81b4322f96b1",
+    "revision": "445b3e0dabedf870aef0",
     "url": "/fruitcart/static/css/main.0a690ca1.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/fruitcart/static/js/2.4772b873.chunk.js"
   },
   {
-    "revision": "68daf5ca81b4322f96b1",
-    "url": "/fruitcart/static/js/main.1ada5ba7.chunk.js"
+    "revision": "445b3e0dabedf870aef0",
+    "url": "/fruitcart/static/js/main.e1917a65.chunk.js"
   },
   {
     "revision": "1b091f7e23a33d4bced7",
