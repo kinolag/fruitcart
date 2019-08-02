@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/app/fruitcart/static/css/main.0a690ca1.chunk.css",
-    "main.js": "/app/fruitcart/static/js/main.17815783.chunk.js",
-    "main.js.map": "/app/fruitcart/static/js/main.17815783.chunk.js.map",
-    "runtime~main.js": "/app/fruitcart/static/js/runtime~main.0c5c752d.js",
-    "runtime~main.js.map": "/app/fruitcart/static/js/runtime~main.0c5c752d.js.map",
-    "static/js/2.4772b873.chunk.js": "/app/fruitcart/static/js/2.4772b873.chunk.js",
-    "static/js/2.4772b873.chunk.js.map": "/app/fruitcart/static/js/2.4772b873.chunk.js.map",
-    "index.html": "/app/fruitcart/index.html",
-    "precache-manifest.3124dd21c3500907f6857736e84e6477.js": "/app/fruitcart/precache-manifest.3124dd21c3500907f6857736e84e6477.js",
-    "service-worker.js": "/app/fruitcart/service-worker.js",
-    "static/css/main.0a690ca1.chunk.css.map": "/app/fruitcart/static/css/main.0a690ca1.chunk.css.map",
-    "static/media/apples_oranges_1.png": "/app/fruitcart/static/media/apples_oranges_1.09b86631.png"
+    "main.css": "/fruitcart/static/css/main.0a690ca1.chunk.css",
+    "main.js": "/fruitcart/static/js/main.1ada5ba7.chunk.js",
+    "main.js.map": "/fruitcart/static/js/main.1ada5ba7.chunk.js.map",
+    "runtime~main.js": "/fruitcart/static/js/runtime~main.c760b260.js",
+    "runtime~main.js.map": "/fruitcart/static/js/runtime~main.c760b260.js.map",
+    "static/js/2.4772b873.chunk.js": "/fruitcart/static/js/2.4772b873.chunk.js",
+    "static/js/2.4772b873.chunk.js.map": "/fruitcart/static/js/2.4772b873.chunk.js.map",
+    "index.html": "/fruitcart/index.html",
+    "precache-manifest.4c6fc2b5a9018f983469ab4c11d73d42.js": "/fruitcart/precache-manifest.4c6fc2b5a9018f983469ab4c11d73d42.js",
+    "service-worker.js": "/fruitcart/service-worker.js",
+    "static/css/main.0a690ca1.chunk.css.map": "/fruitcart/static/css/main.0a690ca1.chunk.css.map",
+    "static/media/apples_oranges_1.png": "/fruitcart/static/media/apples_oranges_1.09b86631.png"
   }
 }
