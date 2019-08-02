@@ -151,7 +151,7 @@ export default class OrderCreator extends React.Component {
                                         </label>
                                     </div>
 
-                                    <div className="row left">
+                                    <div className="row">
                                         <input
                                             className="w50 space-04 pad-10 mar-10 border-1 radius-4"
                                             id="item2"
