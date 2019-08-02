@@ -11,16 +11,16 @@ This simple app :
 
 • adjusts the subtotal if an offer has been activated (in this case by the client, but in a real scenario the same could be done by the admin)
 
-• gives a message if trying to add items to cart when all quantities are still zero
+• returns a message if trying to add items to cart when all quantities are still zero
 
-• gives an alert if trying to place an order when no item has been added to the cart
+• returns an alert if trying to place an order when no item has been added to the cart
 
-• gives an alert to confirm an order has been placed. The page is then reset to the starting status.
+• returns an alert to confirm an order has been placed. The page is then reset to the starting status.
 
-Why React? State management helps updating the quantities, subtotal, total, offer and discount in a convenient way. 
+[Why React?] 
+State management helps updating the quantities, subtotal, total, offer and discount in a convenient way. 
 Props and callbacks can be passes between components etc.
 
+[What next?]
 The orders are not persisted in the first version, but may be in the next version.
 Prices and offers details are stored in a basic frontend data source.
-
-
