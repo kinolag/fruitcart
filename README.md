@@ -22,7 +22,7 @@ _The layout is responsive and uses media queries._
 ### Why React?
 
 State management helps updating the quantities, subtotal, total, offer and discount in a convenient way. 
-Props and callbacks can be passes between components etc.
+Props and callbacks can be passed between components helping to build a modular app.
 
 ### What next?
 
