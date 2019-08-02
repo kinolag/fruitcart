@@ -37,7 +37,7 @@ export default class OrderCreator extends React.Component {
     };
 
     restarter() {
-        if (this.state.total === 0) {
+        if (this.state.total < 0.01) {
             alert("Please add a fruit to your cart before placing an order")
         } else {
             this.resetter();
