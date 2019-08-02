@@ -132,11 +132,11 @@ export default class OrderCreator extends React.Component {
                         <div className="w60vw mar-10 radius-8 border-2">
                             <form onSubmit={e => this.addToCart(e)}>
                                 <div className='wrapper'>
-                                    <p className="w50vw is-349 bg-e pad-10 mar-10 border-1 radius-4">
+                                    <p className="w50vw is-349 bg-e pad-5 mar-10 border-1 radius-4">
                                         New Order - Enter Quantities
                                     </p>
 
-                                    <div>
+                                    <div className="row">
                                         <input
                                             className="w50 space-04 pad-10 mar-10 border-1 radius-4"
                                             id="item1"
@@ -151,7 +151,7 @@ export default class OrderCreator extends React.Component {
                                         </label>
                                     </div>
 
-                                    <div>
+                                    <div className="row left">
                                         <input
                                             className="w50 space-04 pad-10 mar-10 border-1 radius-4"
                                             id="item2"

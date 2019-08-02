@@ -8,7 +8,7 @@ export default function Header() {
                 The FruitCart. Mixing apples with oranges. 
                 {/* <NavLink to='/' className='a2'>Home</NavLink> */}
             </h3>
-            <p className='pad-10 is-white'>A test application built with React</p>
+            <p className='pad-10 is-white'>A test application made with React</p>
         </div>
     );
 }
