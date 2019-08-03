@@ -21,10 +21,11 @@ _The layout is responsive and uses media queries._
 
 ### Why React?
 
-State management helps updating the quantities, subtotal, total, offer and discount in a convenient way. 
+State helps updating the quantities, subtotal, offer, discount and total in a convenient way.
+Virtual DOM only updates the parts of the UI that have changed, without reloading the unchanged elements.
 Props and callbacks can be passed between components helping to build a modular app.
 
 ### What next?
 
-The orders are not persisted in the first version, but may be in the next version.
 Prices and offers details are stored in a basic frontend data source.
+Orders are not persisted in the first version, but may be in the next version.
