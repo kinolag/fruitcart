@@ -336,6 +336,10 @@ ul {
   color: #FC0;
 }
 
+.is-orangered {
+  color: orangered;
+}
+
 .is-red {
   color: red;
 }

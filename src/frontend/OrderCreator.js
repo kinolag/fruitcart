@@ -167,9 +167,9 @@ export default class OrderCreator extends React.Component {
                                     </div>
 
                                     <div>
-                                        <input className='form-button point w15vw bg-sg txt-12 is-fc0  pad-10 mar-10 space-04 radius-4' type="submit" value="Add to Cart" />
+                                        <input className='form-button point w15vw bg-sg txt-12 is-fc0 pad-10 mar-10 space-04 radius-4' type="submit" value="Add to Cart" />
 
-                                        <button className='form-button point w15vw bg-sg txt-12 is-white  pad-10 mar-10 space-04 radius-4'
+                                        <button className='form-button point w15vw bg-sg txt-12 is-white pad-10 mar-10 space-04 radius-4'
                                             onClick={() => this.resetter()}>Reset
                                         </button>
                                     </div>
