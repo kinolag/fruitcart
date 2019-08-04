@@ -7,7 +7,7 @@ This simple app :
 
 • lets a user select the quantities of two fruits and add them to a cart
 
-• calculates order subtotal based on unit prices
+• calculates an order subtotal based on unit prices
 
 • adjusts the subtotal if an offer has been activated (in this case by the client, but in a real scenario the same could be done by the admin)
 
