@@ -21,8 +21,8 @@ _The layout is responsive and uses media queries._
 
 ### Why React?
 
-State helps updating the quantities, subtotal, offer, discount and total in a convenient way.
-Virtual DOM only updates the parts of the UI that have changed, without reloading the unchanged elements.
+State lets you update the quantities, subtotal, offer, discount and total in a convenient way.
+Virtual DOM only updates the elements of the UI that have changed, without reloading the unchanged ones.
 Props and callbacks can be passed between components helping to build a modular app.
 
 ### What next?
