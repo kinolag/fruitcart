@@ -27,5 +27,5 @@ Props and callbacks can be passed between components helping to build a modular 
 
 ### What next?
 
-Prices and offers details are stored in a basic frontend data source.
-Orders are not persisted in the first version, but may be in the next version.
+Prices and offers details are stored separately in a frontend data source, so they can be easily updated.
+However, orders are not persisted in the first app version (which is a cart demo), but may be in the next one.

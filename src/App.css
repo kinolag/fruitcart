@@ -482,6 +482,10 @@ ul {
   cursor: pointer;
 }
 
+/* input:focus {
+  outline: none;
+} */
+
 /* form */
 
 .user-form {
